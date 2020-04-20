@@ -37,7 +37,7 @@ To access the HERE Geocoding API, an API Key is required. Follow the instruction
 1. Select **Notebook**
 1. On the **New Notebook** page, select **From URL**
 1. Enter a **Name** for the notebook
-1. For the **Notebook URL**, enter the URL for the notebook (found in this GitHub repo):
+1. For the **Notebook URL**, enter the URL for the notebook (found in [this GitHub repo](https://github.com/Call-for-Code/twc-disease-tracker-api-python)):
 
     ```
     https://raw.githubusercontent.com/Call-for-Code/twc-disease-tracker-api-python/master/twc-disease-tracker-api.ipynb
@@ -55,7 +55,7 @@ From within the notebook:
 1. Update the cell under the **Set API keys** section and set the HERE Location services API key (i.e., `HERE_APIKEY`)
 1. Run through the notebook and execute each cell
 
-In the **Run** section of the notebook, you can set the location you want to get data for. The location can be a geocode (i.e., `42.3584,-71.0598`), postal key (i.e., `02109:US`), or a street address if HERE AP Key is set.
+In the **Run** section of the notebook, you can set the location you want to get data for. The location can be a geocode (i.e., `42.3584,-71.0598`), postal key (i.e., `02109:US`), or an address (e.g., `Boston, MA`) if HERE AP Key is set.
 
 Examine the **Add function to query TWC API to get most recent report** section to see how exactly disease tracking API endpoint is used.
 
